@@ -2,6 +2,7 @@ Pod::Spec.new do |spec|
   spec.name         = 'Keccak'
   spec.platform = :ios
   spec.ios.deployment_target = '10.0'
+  spec.requires_arc = true
   spec.version      = '0.1'
   spec.license      = { :type => '' }
   spec.homepage     = 'https://github.com/wavesplatform/WavesWallet-iOS/'
